@@ -5,12 +5,18 @@
 
 .header {
     color: white;
-    background-color: rgb(50, 50, 131);
+    background-color: #1f2b37;
+
 }
+
+/*          HEADER TOP          */
 
 .headertop {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    
 }
 
 ul {
@@ -22,3 +28,31 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.titlesub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/*          HEADER BODY          */
+
+.header-body {
+    display: flex;
+}
+
+img {
+    max-height: 200px;
+}
+
+
