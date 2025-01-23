@@ -43,6 +43,7 @@ body {
     font-family: Lakers-Font;
     font-size: 29px;
     color: #FDB927;
+    text-shadow: 1px 1px 4px #E5E7EB;
 }
 
 .header-link {
@@ -358,4 +359,30 @@ h4 {
     padding: 10px 16px;
     border-radius: 12px;
     transform: scale(1.15);
+    text-shadow: 1px 1px 4px #E5E7EB;
 }
+
+
+/*          KOBE HIGHLIGHTS HTML        */
+
+.kobe-highlights-main {
+    font-family: Lakers-Font-Body;
+    text-shadow: 0 0 10px #FDB927;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+}
+
+.kobe-highlights-video {
+    box-sizing: border-box;
+    border-image: linear-gradient(to right,#552583,#FDB927 ) 1;
+    border-style: solid;
+    border-width: 15px;
+
+}   
+
