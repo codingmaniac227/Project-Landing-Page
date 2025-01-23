@@ -78,5 +78,5 @@ Integrate a form for users to sign up for newsletters or community events.
 
 ## Reflection 
 
-** Legends never die, they live forever in our hearts! 💜💛 **
-** And as always, keep God First! 🙏 **
+**Legends never die, they live forever in our hearts! 💜💛**
+**And as always, keep God First! 🙏**
