@@ -1,8 +1,28 @@
+/*          IMPORTS         */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@font-face {
+    font-family: Lakers-Font;
+    src: url("Nero Alt.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Lakers-Font-Body;
+    src: url("Lakers.ttf") format("truetype");
+}
+
+/*          END OF IMPORTS         */
+
 
 * {
     padding: 0;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -10,25 +30,41 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-.first-section {
-    background-color: #1F2937;
 
+
+/*          FIRST SECTION           */
+
+.first-section {
+    background-color: #552583;
+    width: 100%;
 }
 
 #header-logo {
-    font-size: 24px;
-    color: #f9faf8;
+    font-family: Lakers-Font;
+    font-size: 29px;
+    color: #FDB927;
 }
 
 .header-link {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #f9faf8;
     margin: 10px;
+}
+
+.header-styles {
+    box-sizing: border-box;
+    border: 3px solid white;
+    background-color: #FDB927;
+    opacity: 90%;
+    padding: 10px 16px;
+    border-radius: 12px;
+    transition: all 0.5s ease
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
+    font-family: Lakers-Font;
 }
 
 ul {
@@ -42,6 +78,7 @@ ul {
     width: 50%;
     justify-content: center;
     align-items: center;
+    padding: 8px;
 }
 
 
@@ -63,8 +100,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    
+    width: 50%;    
  }
 
  .content-left {
@@ -74,6 +110,15 @@ h1 {
     margin-left: 150px;
  }
 
+.font-change {
+    font-family: Lakers-Font;
+}
+
+ .kobe-img {
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #FDB927;
+ }
 
 img {
     margin-bottom: 50px;
@@ -82,13 +127,235 @@ img {
 .p-first {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 20px;
 }
 
+
 .sign-up-first-section {
-    background-color: #3882f6;
+    background-color: #552583;
     color: white;
-    width: 100px;
-    height: 35px;
-    border: 1px #3882f6;
+    width: 150px;
+    height: 50px;
+    border: 3px double white;
     border-radius: 10px;
+    margin: 8px;
+    font-size: 18px;
+    font-family: Lakers-Font;
+}
+
+/*          END OF FIRST SECTION           */
+
+
+
+/*          SECOND SECTION           */
+.second-section {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #552583;
+    text-align: center;
+    font-family: Lakers-Font-Body;
+    margin-bottom: 20px;
+}
+
+#hover-hint {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FDB927;
+    text-align: center;
+}
+
+.row-of-black-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+    gap: 35px;
+}
+
+.box-black {
+    border: 5px solid black;
+    box-shadow: 0 0 15px #552583;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 16px;
+    background-image: url("./images/lakerslogo.png");
+    background-size: cover;
+    transition: all 0.6s ease
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
+    color: #552583;
+}
+
+/*          END OF SECOND SECTION           */
+
+
+/*          THIRD SECTION           */
+
+.third-section {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 150;
+    color: #1F2937;
+}
+
+.p-third {
+    margin-left: 600px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*          END OF THIRD SECTION           */
+
+
+/*          LAST SECTION           */
+
+.last-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 350px;
+}
+
+.blue-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #552583;
+    border-radius: 10px;
+    width: 75%;
+    height: 45%;
+}
+
+.left {
+    color: #f9faf8;
+    width: 55%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.last-p {
+    font-size: 18px;
+}
+
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.btn-last-div {
+    color: #FDB927;;
+    background-color: #552583;
+    border: 3px solid #f9faf8;
+    border-radius: 12px;
+    width: 120px;
+    height: 35px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-div-button-color {
+    color: #FDB927;
+}
+
+/*          END OF LAST SECTION           */
+
+/*          FOOTER         */
+
+.footer {
+    background-color: #552583;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FDB927;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #E5E7EB;}
+
+/*          END OF FOOTER           */
+
+
+
+/*          KOBE BRYANT GIFS         */
+
+#kobe-mj:hover {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    transform: scale(1.15);
+    box-shadow: 0 0 100px #552583;
+    background-image: url("./images/kobe-and-mj.gif");
+    background-position: center;
+}
+
+
+#kobe-wade:hover {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    transform: scale(1.15);
+    box-shadow: 0 0 100px #552583;
+    background-image: url("./images/kobe-over-wade.gif");
+    background-position: center;
+}
+
+#kobe-dunking:hover {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    transform: scale(1.15);
+    box-shadow: 0 0 100px #552583;
+    background-image: url("./images/kobe-dunking.gif");
+    background-position: center;
+}
+
+#kobe-shaq:hover {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    transform: scale(1.15);
+    box-shadow: 0 0 100px #552583;
+    background-image: url("./images/kobe-and-shaq.gif");
+    background-position: center;
+}
+
+.header-styles:hover {
+    box-sizing: border-box;
+    border: 6px solid #FDB927;
+    background-color: #552583;
+    opacity: 90%;
+    padding: 10px 16px;
+    border-radius: 12px;
+    transform: scale(1.15);
 }
