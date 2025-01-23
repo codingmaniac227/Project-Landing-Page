@@ -2,6 +2,13 @@
 Welcome to my project! This is a visually appealing and interactive landing page dedicated to the legendary NBA player, Kobe Bryant, and the iconic Los Angeles Lakers, built using HTML and CSS. This project aims to celebrate the legacy of Kobe while highlighting user interactivity and creative design.
 
 ## Features 
+- **Flexbox Usage**
+```
+- Flexbox is utilized throughout the project to create a responsive and fluid layout.
+- The `.navbar` class leverages Flexbox for a horizontal arrangement of links and titles, ensuring they are centered and evenly spaced within the available width.
+- The `.content` class is divided into two sections (left and right) which are laid out side by side using Flexbox. This arrangement allows for easy alignment and distribution of space between elements, providing a clean and organized appearance.
+```
+
 - **Dynamic Header Section**
 ```
 - The webpage begins with a vibrant header showcasing "LAKERS LEGENDS".
