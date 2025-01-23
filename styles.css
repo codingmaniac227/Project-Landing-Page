@@ -380,9 +380,13 @@ h4 {
 
 .kobe-highlights-video {
     box-sizing: border-box;
-    border-image: linear-gradient(to right,#552583,#FDB927 ) 1;
+    border-image: linear-gradient(to left,#552583,#FDB927 ) 1;
     border-style: solid;
     border-width: 15px;
 
 }   
+
+#kobe-top-40-img {
+    width: 360px;
+}
 
